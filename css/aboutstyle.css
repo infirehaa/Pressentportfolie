@@ -1,0 +1,59 @@
+.bodyAbout {
+    background-color: whitesmoke;
+}
+
+.kasse {
+    background-color: rgba(213, 172, 78, 0.5);
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    font-family: sans-serif;
+    width: auto;
+}
+
+.icon img{
+    height: 100px;
+    width: 100px;
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+ul.menu {
+    font-size: 32px;
+    list-style-type: none;
+ 
+    margin: 0;
+}
+
+ul.menu li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color:black;
+
+  }    
+  /* mouse over link */
+  ul.menu li a:hover {
+    color: grey;
+  }
+  
+  /* selected link */
+  ul.menu li a:active {
+    color: blue;
+  }
